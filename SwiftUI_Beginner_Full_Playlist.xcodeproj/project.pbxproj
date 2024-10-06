@@ -22,6 +22,7 @@
 		E625B9B32CB16C5E004FD288 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E625B9B22CB16C5E004FD288 /* StateBootcamp.swift */; };
 		E625B9B52CB1B013004FD288 /* ExtractedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E625B9B42CB1B013004FD288 /* ExtractedFunctions.swift */; };
 		E625B9B72CB277A7004FD288 /* ExtractedSubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E625B9B62CB277A7004FD288 /* ExtractedSubViews.swift */; };
+		E625B9B92CB2847B004FD288 /* BindingPropertyWrapperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E625B9B82CB2847B004FD288 /* BindingPropertyWrapperBootcamp.swift */; };
 		E6877BE62CAEF50300D1E0F6 /* SwiftUI_Beginner_Full_PlaylistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6877BE52CAEF50300D1E0F6 /* SwiftUI_Beginner_Full_PlaylistApp.swift */; };
 		E6877BE82CAEF50300D1E0F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6877BE72CAEF50300D1E0F6 /* ContentView.swift */; };
 		E6877BEA2CAEF50400D1E0F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6877BE92CAEF50400D1E0F6 /* Assets.xcassets */; };
@@ -69,6 +70,7 @@
 		E625B9B22CB16C5E004FD288 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
 		E625B9B42CB1B013004FD288 /* ExtractedFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctions.swift; sourceTree = "<group>"; };
 		E625B9B62CB277A7004FD288 /* ExtractedSubViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedSubViews.swift; sourceTree = "<group>"; };
+		E625B9B82CB2847B004FD288 /* BindingPropertyWrapperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPropertyWrapperBootcamp.swift; sourceTree = "<group>"; };
 		E6877BE22CAEF50300D1E0F6 /* SwiftUI_Beginner_Full_Playlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Beginner_Full_Playlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6877BE52CAEF50300D1E0F6 /* SwiftUI_Beginner_Full_PlaylistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Beginner_Full_PlaylistApp.swift; sourceTree = "<group>"; };
 		E6877BE72CAEF50300D1E0F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				E625B9B22CB16C5E004FD288 /* StateBootcamp.swift */,
 				E625B9B42CB1B013004FD288 /* ExtractedFunctions.swift */,
 				E625B9B62CB277A7004FD288 /* ExtractedSubViews.swift */,
+				E625B9B82CB2847B004FD288 /* BindingPropertyWrapperBootcamp.swift */,
 				E6877BE92CAEF50400D1E0F6 /* Assets.xcassets */,
 				E6877BEB2CAEF50400D1E0F6 /* Preview Content */,
 			);
@@ -330,6 +333,7 @@
 				E625B9AF2CB147A1004FD288 /* SafeAreaBootcamp.swift in Sources */,
 				E625B9B52CB1B013004FD288 /* ExtractedFunctions.swift in Sources */,
 				E6877C102CAEF54900D1E0F6 /* TextBootcamp.swift in Sources */,
+				E625B9B92CB2847B004FD288 /* BindingPropertyWrapperBootcamp.swift in Sources */,
 				E625B9A92CB10F10004FD288 /* ForEachBootcamp.swift in Sources */,
 				E6877C162CAF123400D1E0F6 /* GradientBootcamp.swift in Sources */,
 				E6877BE62CAEF50300D1E0F6 /* SwiftUI_Beginner_Full_PlaylistApp.swift in Sources */,
