@@ -16,6 +16,8 @@
 ///
 /// @Binding we inset in child view
 /// @State we inset in parent view and we put the variable with a $ sign to show the linkage
+///
+/// This is how you connect variables from one scree / view to the next
 
 import SwiftUI
 
