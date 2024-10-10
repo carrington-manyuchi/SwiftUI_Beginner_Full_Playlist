@@ -4,7 +4,12 @@
 //
 //  Created by Manyuchi, Carrington C on 2024/10/09.
 //
-/// Sheets are a segue that pops up  from the bottom  of our screen so we can present a new screen on top.
+/// Sheets are a segue that pops up  from the bottom  of our screen so we can present a new screen on top.]
+/// How to add a sheet
+///   1. A binding state variable, you need to bind it to the sheet & present the second screen
+///   2. To dismiss a sheet, add the environment  dismiss to the screen and then call it as function  dismissScreen()
+///   3. Do not add condiotional logic where you present your 2nd screen.
+
 
 import SwiftUI
 
@@ -29,7 +34,11 @@ struct SheetsBootcamp: View {
                         )
                 
                 })
-                .sheet(isPresented: $showSheet, content: {
+//                .sheet(isPresented: $showSheet, content: {
+//                    SecondScreen()
+//                })
+                
+                .fullScreenCover(isPresented: $showSheet, content: {
                     SecondScreen()
                 })
                 
