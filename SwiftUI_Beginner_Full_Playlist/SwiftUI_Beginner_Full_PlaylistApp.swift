@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_Beginner_Full_PlaylistApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppStorageBootcamp()
         }
     }
 }
