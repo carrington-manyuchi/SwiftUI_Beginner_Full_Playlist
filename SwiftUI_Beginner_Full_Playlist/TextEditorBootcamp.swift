@@ -8,8 +8,38 @@
 import SwiftUI
 
 struct TextEditorBootcamp: View {
+    
+    @State var textEditorText: String = "The is the start text editor"
+    @State var savedText: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                TextEditor(text: $textEditorText)
+                    .frame(height: 250)
+                    .colorMultiply(.teal)
+                    .clipShape(RoundedRectangle(cornerRadius: 15))
+                    
+                
+                Button(action: {
+                    savedText = textEditorText
+                }, label: {
+                    Text("Save".uppercased())
+                        .font(.headline)
+                        .foregroundStyle(.white)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(Color.blue)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                    
+                })
+                Text(savedText)
+                Spacer()
+            }
+            .navigationTitle("Text Editor")
+            .padding()
+            .background(Color.red)
+        }
     }
 }
 
